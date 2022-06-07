@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import Formulario from '../components/Formulario'
 import ListadoClientes from '../components/listadoClientes'
 import Footer from '../components/Footer'
 
 function AdministrarConstancias() {
+
+  const [mostrarFormulario, setMostrarFormulario] = useState(false)
 
   return (
     <section className="md:flex h-screen md:m-auto">
@@ -17,4 +20,4 @@ function AdministrarConstancias() {
     )
 }
 
-export default AdministrarConstancias
+export default AdministrarConstancias;
