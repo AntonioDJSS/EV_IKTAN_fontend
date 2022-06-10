@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Formulario from '../components/Formulario'
-import ListadoClientes from '../components/listadoClientes'
+import ListadoClientes from '../components/ListadoClientes'
 import Footer from '../components/Footer'
 
 function AdministrarConstancias() {

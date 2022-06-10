@@ -1,4 +1,5 @@
 import useClintes from "../hooks/useClientes";
+import useClintes from "../hooks/useClientes";
 import Cliente from "./Cliente";
 
 const ListadoClientes = () => {
