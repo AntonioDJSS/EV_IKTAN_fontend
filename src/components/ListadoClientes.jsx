@@ -11,9 +11,9 @@ const ListadoClientes = () => {
           <h2 className="font-black pt-10 text-3xl text-center">Respuestas Almacenadas</h2>
 
           <p className="text-xl mt-5 mb-10 text-center">
-            Aquí aparecen las respuestas{" "}
-            <span className="text-rose-600 font-bold">
-              que se almacenaron en la base de datos
+            Tus respuestas se guardaron correctamente en{" "}
+            <span className="text-amber-600 font-bold">
+              nuestra base de datos.
             </span>
           </p>
 
@@ -31,7 +31,7 @@ const ListadoClientes = () => {
 
           <p className="text-xl mt-5 mb-10 text-center">
            Resuelve tu examen...{" "}
-            <span className="text-rose-600 font-bold">
+            <span className="text-amber-600 font-bold">
               ¡Las respuestas apreceran en este lugar!
             </span>
           </p>

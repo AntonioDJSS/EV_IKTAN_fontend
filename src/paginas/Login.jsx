@@ -48,7 +48,7 @@ const Login = () => {
       <section className="md:flex h-screen md:m-auto">
         <section className="md:align-middle md:mx-96">
           <div>
-            <h1 className="uppercase text-rose-500 font-black text-5xl text-center">
+            <h1 className="uppercase text-amber-500 font-black text-5xl text-center">
               Inicia Sesion y Comienza tu {""}
               <span className="text-black">Evaluacion</span>
             </h1>
@@ -86,7 +86,7 @@ const Login = () => {
                 <input
                   type="submit"
                   value="Iniciar Sesion"
-                  className=" bg-rose-600 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-rose-700 md:w-auto md:px-24"
+                  className=" bg-amber-500 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-amber-600 md:w-auto md:px-24"
                 />
               </div>
               <nav className="mt-2 lg:flex lg:justify-center">

@@ -62,7 +62,7 @@ const NuevoPassword = () => {
   return (
     <>
       <div>
-        <h1 className="text-indigo-600 font-black text-6xl">
+        <h1 className="text-amber-500 font-black text-6xl">
           Restablece tu Password y no Pierdas Acceso a {""}
           <span className="text-black">tu Cuenta</span>
         </h1>
@@ -90,7 +90,7 @@ const NuevoPassword = () => {
               <input
                 type="submit"
                 value="Guardar Nuevo Password"
-                className="bg-indigo-700 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-indigo-800 md:w-auto "
+                className="bg-amber-500 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-amber-600 md:w-auto "
               />
             </form>
           </>

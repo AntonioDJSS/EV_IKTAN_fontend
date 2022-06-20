@@ -6,9 +6,9 @@ const Header = () => {
     const { cerrarSesion } = useAuth();
 
   return (
-    <header className="py-10 bg-rose-600">
+    <header className="py-10 bg-amber-500">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
-            <h1 className="font-bold text-2xl text-rose-200 text-center">Sistema de Evaluación{' '} <span className="text-white font-black">Continua</span>
+            <h1 className="font-bold text-2xl text-amber-200 text-center">Sistema de Evaluación{' '} <span className="text-white font-black">Continua</span>
             </h1>
             <nav className="flex flex-col items-center lg:flex-row gap-4 mt-5 lg:mt-0">
                 <button 
